@@ -1,0 +1,72 @@
+// Kirjatüüpide @mixins
+
+@mixin volvobroad {
+  	font: {
+	  	family: 'Volvo Broad', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+	text-transform: uppercase;
+}
+
+@mixin volvosans-light {
+  	font: {
+	  	family: 'Volvo Sans Light', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvosans-regular {
+  	font: {
+	  	family: 'Volvo Sans Regular', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvosans-medium {
+  	font: {
+	  	family: 'Volvo Sans Medium', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvosans-bold {
+  	font: {
+	  	family: 'Volvo Sans Bold', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvosans-super {
+  	font: {
+	  	family: 'Volvo Sans Super', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvoserif-regular {
+  	font: {
+	  	family: 'Volvo Serif Regular', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvoserif-italic {
+  	font: {
+	  	family: 'Volvo Serif Italic', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvoserif-bold {
+  	font: {
+	  	family: 'Volvo Serif Bold', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}
+
+@mixin volvoserif-bolditalic {
+  	font: {
+	  	family: 'Volvo Serif Bold Italic', Helvetica, Arial, sans-serif;
+	  	weight: 400;
+  	}
+}

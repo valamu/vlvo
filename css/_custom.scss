@@ -1,0 +1,137 @@
+// Navigatsioon
+
+
+nav {
+	background-color: rgba(22, 22, 24, 0.9);
+	height: 7em;
+	.navbar {
+		border: none;
+	}
+	.navbar-toggle {
+		float: left;
+	}
+	.nav-logo {
+		display: inline-block;
+		position: absolute;
+		text-align: center;
+		top: 1em;
+		bottom: 0.9em;
+		left: 12em;
+		right: 12em;
+		text-align: center;
+		min-height: 5em;
+		img.logo {
+			height: 5.1em;
+		}
+	}
+	.navbar-nav {
+		li {
+			@include volvosans-regular;
+			font-size: 1.3em;
+			text-transform: uppercase;
+			a {
+				color: white;
+				height: 5.4em;
+				padding-top: 3.4em;
+				padding-right: 1em;
+				padding-left: 1em;
+				&:hover, &:focus {
+					border-bottom: 0.2em solid white;
+				}
+			}
+		}
+	}
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: $helehall;
+}
+
+.navbar-inverse .navbar-header>button>span {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: transparent;
+	color: $helehall;
+}
+
+
+@media (min-width: $screen-sm-min) and (min-width: $screen-lg-min) {
+	.navbar-inverse .navbar-nav>.active>a, 
+	.navbar-inverse .navbar-nav>.active>a:hover, 
+	.navbar-inverse .navbar-nav>.active>a:focus {
+		border-bottom: 0.2em solid white;
+	}
+}
+
+
+@media (max-width: $screen-xs-max) {
+	nav {
+		.navbar-header {
+			button {
+				font-size: 2em;
+				margin-top: 0.8em;
+				margin-left: 0.5em;
+				border: none;
+			}
+		}
+		.navbar-nav {
+			li {
+				border-bottom: 0.2em solid white;
+				padding: 0 0 1em 0;
+				a {
+					height: 4em;
+					padding: 2em 2em 2em 2em;
+					&:hover, &:focus {
+					border-bottom: none;
+					}
+					&:after {
+						content: "";
+						position: absolute;
+						top: 1.3em;
+						right: 2em;
+						display: block;
+						width: 2em;
+						height: 2em;
+						background: url(../images/nool.svg) no-repeat;
+					}
+				}
+			}
+		}
+		.navbar-collapse {
+			background-color: $tumehall;
+			margin: 0.8em 0 0 0;
+			padding: 0;
+			border: none;
+		}
+	}
+}
+
+
+
+
+
+
+// Põhistiilid
+
+body {
+	background-color: $helehall;
+}
+
+h1 {
+	@include volvobroad;	
+}
+
+p {
+	@include volvosans-super;
+}
+
+.raamiga {
+	border: 1px solid silver;
+	height: 300px;
+}
+
+
